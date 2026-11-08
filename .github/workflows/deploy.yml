@@ -1,11 +1,9 @@
 name: Deploy Worker
 
 on:
+  # 自动部署已关闭：改为手动触发，避免推送意外改动线上 Worker
   workflow_dispatch:
   repository_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   deploy:

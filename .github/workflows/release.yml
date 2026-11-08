@@ -1,9 +1,8 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - "v*.*.*" # Trigger on version tags like v2.0.1
+  # 自动触发已关闭（原为 tag 推送触发）
+  workflow_dispatch:
 
 permissions:
   contents: write # Required to create releases
