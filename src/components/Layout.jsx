@@ -254,7 +254,7 @@ export const Layout = (props) => {
       </head>
       <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         ${children}
-      </body>
+      <script defer src="https://stats.seerking.com/script.js" data-website-id="ccf7a424-087c-4a89-b533-3ebaff42dbda"></script></body>
     </html>
   `
 }
